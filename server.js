@@ -17,8 +17,6 @@ const PORT= process.env.PORT
 app.use(nocache())
 
 
-
-
 //middleware to handle sesssion
 app.use(session({
     secret: uuidv4(),
